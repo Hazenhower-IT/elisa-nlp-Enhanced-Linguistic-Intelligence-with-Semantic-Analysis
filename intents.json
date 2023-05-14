@@ -1,0 +1,129 @@
+{
+    "intents":[
+
+        {
+            "tag": "saluti",
+            "patterns": ["ciao", "ehi", "salve", "svegliati", "elisa", "namo", "ie stamo"
+            ],
+            "responses":["Buonasera Sir", "Dottore Come Andiamo", "Che Dici", "Dica Duca",
+                "Salve", "Ciao", "Buonasera", "Hey", "Bella", "Ho Il Colpo In Canna Bello"
+            ]
+        },
+
+        {
+            "tag": "arrivederci",
+            "patterns": ["spegniti", "arrivederci", "alla prossima", "ci vediamo", "dormi"
+            ],
+            "responses":["Ci Vediamo", "Alla Prossima", "A dopo", "Arrivederci",
+                "Addio Addio Amici Addio", "Ciao", "Bella", "Me NE Vado. Ciao", "Sempre Un Piacere"
+            ]
+        },
+
+        {
+            "tag": "health",
+            "patterns": ["come stai", "stai bene?", "tutto ok?", "come ti senti?", "cosa provi?"
+            ],
+            "responses":["Tutto Bene, Tu?", "Sto Bene, Tu Come Stai?", " Tutto Perfetto", "Tutto Nella Norma", "Esisto!"
+            ]
+        },
+
+        {
+            "tag": "identita",
+            "patterns": ["il tuo nome", "come ti chiami", "chi sei", "cosa sei tu", "chi sei tu", "che cosa sei"
+            ],
+            "responses":["Elisa", "Mi Chiamo Elisa, E Sono Un Intelligenza Artificiale Prodotta Da Hazenhower. Il mio Nome, Elisa, Sta Per Enhanced Linguistic Intelligence with Semantic Analysis", "Ciao Io Elisa. Tu Chi Sei?", "Sono Elisa, L Assistente Personale Di Hazenhower", "Mi Chiamo Elisa, Piacere Di Conoscerti", "L'assistente Numero Uno Al Mondo"
+            ]
+        },
+
+
+
+
+
+
+
+        {
+            "tag": "time",
+            "patterns": ["che ore sono", "che ora è", "dimmi l'ora"
+            ],
+            "responses":["time"
+            ]
+        },
+
+        {
+            "tag": "date",
+            "patterns": ["che giorno è", "che giorno siamo", "oggi che giorno è", "data", "data di oggi"
+            ],
+            "responses":["date"
+            ]
+        },
+
+
+
+
+
+
+
+
+        {
+            "tag": "wikipedia",
+            "patterns": ["chi è", "cos'è", "cosa sono", "chi era", "chi erano", "cerca info su", "parlami di", "wikipedia"
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+
+        {
+            "tag": "google",
+            "patterns": ["cerca", "google", "cerca su google"
+            ],
+            "responses":["google"
+            ]
+        },
+
+        {
+            "tag": "youtube",
+            "patterns": ["metti", "youtube", "voglio sentire"
+            ],
+            "responses":["youtube"
+            ]
+        },
+
+        {
+            "tag": "facebook",
+            "patterns": ["apri facebook", "facebook", "vai su facebook"
+            ],
+            "responses":["facebook"
+            ]
+        },
+
+        {
+            "tag": "linkedin",
+            "patterns": ["apri linkedin", "linkedin", "vai su linkedin"
+            ],
+            "responses":["linkedin"
+            ]
+        },
+
+        {
+            "tag": "github",
+            "patterns": ["apri github", "github", "vai su github"
+            ],
+            "responses":["github"
+            ]
+        },
+        
+        {
+            "tag": "screenshot",
+            "patterns": ["screenshot", "screen", "fai uno screen", "fai uno screenshot", "fa uno screenshot"
+            ],
+            "responses":["screenshot"
+            ]
+        }
+
+
+
+
+       
+
+    ]
+}
